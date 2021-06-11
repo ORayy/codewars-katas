@@ -1,0 +1,16 @@
+# Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+# Examples:
+
+# solution('abc', 'bc') # returns true
+# solution('abc', 'd') # returns false
+
+# soln
+string = 'abc'
+ending = 'bc'
+
+# using .endswith() method
+def solution(string, ending):
+    return string.endswith(ending)
+    
+print(solution(string, ending))

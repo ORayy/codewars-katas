@@ -20,3 +20,9 @@ def disemvowel(string_):
     return string_
 
 print(disemvowel(string_))
+
+
+# or 
+
+# def disemvowel(string_):
+#     return string_.translate(None, "aeiouAEIOU")
